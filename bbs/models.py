@@ -28,11 +28,6 @@ class Topic(models.Model):
     dt = models.DateTimeField(verbose_name="投稿日", default=timezone.now)
 
 
-
-
-
-
-
     pay_dt  =  models.DateTimeField(verbose_name="決済日")
 
     def __str__(self):

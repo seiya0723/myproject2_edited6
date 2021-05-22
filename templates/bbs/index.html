@@ -82,9 +82,9 @@
         <td>{{ topic.category|default:"未分類" }}</td>
         <td>{{ topic.title }}</td>
         <td>{{ topic.comment }}</td>
-        <td>{{ topic.price|default:"-"|intcomma }}</td>
-        <td>{{ topic.salary|default:"-"|intcomma }}</td>
-        <td>{{ topic.spending|default:"-"|intcomma }}</td>
+        <td>{{ topic.price|default:"0"|intcomma }}</td>
+        <td>{{ topic.salary|default:"0"|intcomma }}</td>
+        <td>{{ topic.spending|default:"0"|intcomma }}</td>
         {# <td>{{ topic.salary|sub:topic.spending|price }}</td> #}
         <td>{{ topic.dt }}</td>
         <td>{{ topic.pay_dt }}</td>
